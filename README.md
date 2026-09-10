@@ -1,22 +1,15 @@
-# Trendyol Tech Talent BootCamp
+# Trendyol Tech Talent Bootcamp
 
-## TDD Homework
-### Word Count
+Homework from the Trendyol Tech Talent Bootcamp (2020).
 
-Given a series of 'String' inputs, output the number of unique words seen.
+## TDD homework — word count
 
-#### Note:
+Given a series of `String` inputs, output the number of unique words seen.
 
 - words include letters and apostrophes
 - capitalization may vary on otherwise identical words
-- punctuation of ',' and '.' should be ignored
+- `,` and `.` punctuation is ignored
 
-#### Example
+"This is a test." has four words; "This is a test and a good test." has six unique words.
 
-> This is a test.
-
-Has four words.
-
-> This is a test and a good test.
-
-Has six unique words.
+The implementation is in `bootcamp-tdd-hw` — a Maven project written test-first with JUnit.
